@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('DevOps CI/CD Pipeline Working - Updated!');
+  res.send('DevOps CI/CD Pipeline Working!');
 });
 
 app.listen(PORT, () => {
