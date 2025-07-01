@@ -27,4 +27,4 @@ npm test
 ```
 
 ## 📂 GitHub Actions Path
-`.github/workflows/main.yml`
+`.github/workflows/main.yml` 
