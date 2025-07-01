@@ -20,7 +20,10 @@ jobs:
         node-version: '18'
 
     - name: Install Dependencies
-      run: npm install
+      run: npm ci
 
-    - name: Run Tests with npx
-      run: npx jest
+    - name: Fix Jest Permission
+      run: chmod +x ./node_modules/.bin/jest
+
+    - name: Run Tests using Jest
+      run: ./node_modules/.bin/jest
